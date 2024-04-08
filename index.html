@@ -1,130 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-
-        header {
-            background-color: #3498db;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-        }
-
-        nav {
-            background-color: #333;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 1em;
-        }
-
-        section {
-            padding: 2em;
-        }
-
-        h2 {
-            color: #3498db;
-        }
-
-        p {
-            line-height: 1.6;
-            margin-bottom: 1.5em;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 1em;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-        }
-        .hello{
-            float: right;
-        }
-    </style>
+    <title>Creative Profile Card</title>
+    <!-- external stylesheet here  -->
+    
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn link here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
     <section id="about">
-        <h2>Our Story</h2>
+        <h1>Our Story</h1>
         <p>In 2080/04/15  our school had an science workshop .And we thought we should prepared the best project and after searching a lot we know that hydrogen can be 
           the future gas/fuel .And after a long search again we come on the point that Electrolysis is done to seperate hydrogen and we started to flip our mind.           
         </p>
 
-        <h2>Our Team</h2>
+        <h1>Our Team</h1>
         <p>We take pride in our talented and passionate team members. From experienced professionals to creative minds, we have assembled a diverse group of individuals who share a common goal - to deliver excellence in every project we undertake. Meet the faces behind our success:</p>
 
-
-        <div>
-            <img src="https://edigitalnepal.com/sms/files/student-profile-images/1684491127908-38962fcf-7bc2-4c7b-8027-0ba6d439ef5c.JPG" width="100px"height="100px" alt="Team Member 1">
-            <h3>Sudeep Lamichhane</h3>
-            <p><br>Expertise: [Electrician/IT Specialist]</p>
-    
-    <div>
-            <img src="414538552_366449609359780_5420448505934807871_n.jpg" alt="Team Member 2"width="100px"height="100px">
-            <h3>Reyog Paneru</h3>
-            <p></p><br>Expertise: [Audino Programming]</p>
+    <div class="container">
+        <div class="card card0">
+            <div class="border">
+                <h2>Sudeep Lamichhane</h2>
+                <div class="icons">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </div>
+            </div>
         </div>
-               <div>
-            <img src="https://edigitalnepal.com/sms/files/student-profile-images/1684490805864-8eca87fe-fb0e-490c-8a02-38703c3bb67d.JPG" alt="Team Member 2"width="100px"height="100px">
-            <h3>Samip Thapa</h3>
-            <p></p><br>Expertise: [Technician/Engineer]</p>
+        <div class="card card1">
+            <div class="border">
+                <h2>Reyog Paneru</h2>
+                <div class="icons">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </div>
+            </div>
         </div>
-      
-<br>
-        <h2>Our Mission</h2>
-        <p> Our mission is to seperate Hydrogen which can be used in various way such as Chemical fertilizer. We aim to seperate hydrogen in very efficietively with high effiency
-            . Through dedication, innovation, and collaboration, we strive to make a positive impact in this project.</p>
-    </section>
-   <style>
-        .custom-button {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
-            font-weight: bold;
-            text-align: center;
-            text-decoration: none;
-            cursor: pointer;
-            border: 2px solid #3498db;
-            color: #3498db;
-            background-color: #fff;
-            border-radius: 5px;
-            transition: background-color 0.3s, color 0.3s;
-        }
-        .custom-button:hover {
-            background-color: #3498db;
-            color: #fff;
-        }
-    </style>
-    <a href="https://sudeepdeve.github.io/Electrolysis-/"class="custom-button">Back To Previous Page<--</a>    
+        <div class="card card2">
+            <div class="border">
+                <h2>Samip Thapa</h2>
+                <div class="icons">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1>Our Mission</h1>
+    <p> Our mission is to seperate Hydrogen which can be used in various way such as Chemical fertilizer. We aim to seperate hydrogen in very efficietively with high effiency
+        . Through dedication, innovation, and collaboration, we strive to make a positive impact in this project.</p>
+</section>
+<style>
+    .custom-button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid #3498db;
+        color: #3498db;
+        background-color: #fff;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .custom-button:hover {
+        background-color: #3498db;
+        color: #fff;
+    }
+</style>
+<a href="https://sudeepdeve.github.io/Electrolysis-/"class="custom-button">Back To Previous Page<--</a>    
 
-    <footer>
-        <p>&copy; 2024 [सुदीप लामिछाने]</p>
-    </footer>
-
+<footer>
+    <p>&copy; 2024 [सुदीप लामिछाने]</p>
+</footer>
 </body>
-
 </html>
